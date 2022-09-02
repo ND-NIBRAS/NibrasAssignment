@@ -1,0 +1,20 @@
+<div>
+  <mat-card class="px-3">
+    <div class="d-flex flex-column">
+      <div class="d-flex justify-content-end">
+        <i class="bx bx-user nav_icon"></i>
+      </div>
+      <div class="d-flex justify-content-start mt-6">
+        <p class="fs-2 fw-bold">{{ Amount }}</p>
+      </div>
+      <div class="d-flex justify-content-start">
+        <p
+          class="text-muted fs-5 fw-bold"
+          [ngClass]="{ 'text-muted': IsMuted == true }"
+        >
+          {{ Description }}
+        </p>
+      </div>
+    </div>
+  </mat-card>
+</div>
