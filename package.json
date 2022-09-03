@@ -22,7 +22,6 @@
     "@angular/router": "^14.0.0",
     "angular-datatables": "^14.0.0",
     "bootstrap": "^5.2.0",
-    "boxicons": "^2.1.2",
     "datatables.net": "^1.11.3",
     "datatables.net-bs5": "^1.11.3",
     "datatables.net-dt": "^1.11.3",
