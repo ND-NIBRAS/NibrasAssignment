@@ -26,8 +26,11 @@
     "datatables.net-bs5": "^1.11.3",
     "datatables.net-dt": "^1.11.3",
     "jquery": "^3.6.1",
+    "material-icons-font": "^2.1.0",
+    "roboto-fontface": "^0.10.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "typeface-roboto": "^1.1.13",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
