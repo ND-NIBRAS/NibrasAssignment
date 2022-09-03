@@ -7,10 +7,13 @@ import { HomeComponent } from './components/home/home.component';
 import { UsersComponent } from './components/users/users.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
+
 import { HomeCardComponent } from './components/shared/home-card/home-card.component';
 import { HomeBlogComponent } from './components/shared/home-blog/home-blog.component';
 import { UserCardComponent } from './components/shared/user-card/user-card.component';
 import { UserGridComponent } from './components/shared/user-grid/user-grid.component';
+import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { UserGridComponent } from './components/shared/user-grid/user-grid.compo
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
