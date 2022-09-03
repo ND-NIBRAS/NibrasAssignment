@@ -1,0 +1,18 @@
+.sub-heading{
+  font-size: x-small;
+}
+
+.sub-heading-background{
+  background-color: var(--background-color);
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.flex-item {
+  margin-top: 3rem;
+  flex: 0 1 calc(20% - 8px);
+}

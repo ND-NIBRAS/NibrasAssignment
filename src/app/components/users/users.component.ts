@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsersComponent implements OnInit {
 
-  constructor() { }
+  public TotalUser: number;
+
+  constructor() {
+    this.TotalUser = 12;
+   }
 
   ngOnInit(): void {
   }
