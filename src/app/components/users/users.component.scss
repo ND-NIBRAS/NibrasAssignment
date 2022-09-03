@@ -1,8 +1,8 @@
-.sub-heading{
+.sub-heading {
   font-size: x-small;
 }
 
-.sub-heading-background{
+.sub-heading-background {
   background-color: var(--background-color);
 }
 
@@ -15,4 +15,8 @@
 .flex-item {
   margin-top: 3rem;
   flex: 0 1 calc(20% - 8px);
+}
+
+.grid-option-selected {
+  color: var(--primary-color);
 }

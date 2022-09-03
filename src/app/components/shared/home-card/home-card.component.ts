@@ -10,6 +10,7 @@ export class HomeCardComponent implements OnInit {
   @Input() Amount = '595';
   @Input() Description = 'Total Orders';
   @Input() IsMuted: boolean = false;
+  @Input() MatIcon = 'send';
 
   constructor() { }
 

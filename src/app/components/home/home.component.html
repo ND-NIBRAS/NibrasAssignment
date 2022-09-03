@@ -4,7 +4,7 @@
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="row">
           <div class="col-2 col-sm-2 col-md-2 col-lg-1">
-            <i class="bx bx-user nav_icon"></i>
+            <mat-icon class="nav_icon">home</mat-icon>
           </div>
           <div class="col-10 col-sm-10 col-md-10 col-lg-11">
             <span class="fs-6 fw-bold">Home</span>
@@ -29,16 +29,29 @@
         Amount="345"
         Description="Total Orders"
         [IsMuted]="true"
+        MatIcon="child_friendly"
       ></app-home-card>
     </div>
     <div class="col-12 col-sm-6 col-md-3 mb-2">
-      <app-home-card Amount="267" Description="Total Expenses"></app-home-card>
+      <app-home-card
+        Amount="267"
+        Description="Total Expenses"
+        MatIcon="account_balance_wallet"
+      ></app-home-card>
     </div>
     <div class="col-12 col-sm-6 col-md-3 mb-2">
-      <app-home-card Amount="345" Description="Total Revenue"></app-home-card>
+      <app-home-card
+        Amount="345"
+        Description="Total Revenue"
+        MatIcon="equalizer"
+      ></app-home-card>
     </div>
     <div class="col-12 col-sm-6 col-md-3 mb-2">
-      <app-home-card Amount="345" Description="New Users"></app-home-card>
+      <app-home-card
+        Amount="345"
+        Description="New Users"
+        MatIcon="person"
+      ></app-home-card>
     </div>
   </div>
 

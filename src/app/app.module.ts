@@ -8,6 +8,7 @@ import { UsersComponent } from './components/users/users.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 
 import { HomeCardComponent } from './components/shared/home-card/home-card.component';
 import { HomeBlogComponent } from './components/shared/home-blog/home-blog.component';
@@ -31,7 +32,8 @@ import { DataTablesModule } from 'angular-datatables';
     BrowserAnimationsModule,
     MatCardModule,
     HttpClientModule,
-    DataTablesModule
+    DataTablesModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
