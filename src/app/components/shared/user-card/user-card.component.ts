@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class UserCardComponent implements OnInit {
   @Input() Name = 'Lorem Epsum';
-  @Input() Designation = 'Head of marketing at K mart';
+  @Input() Email = 'Head of marketing at K mart';
 
   constructor() { }
 

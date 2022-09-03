@@ -5,3 +5,13 @@
 .sub-heading-background{
   background-color: var(--background-color);
 }
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.flex-item {
+  flex: 0 1 calc(25% - 8px);
+}
